@@ -1,8 +1,10 @@
 {
   "hosting": {
-    "public": "dist/angular-example",
+    "public": "dist/angular-example/browser",
     "ignore": [
-      "firebase.json"
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
     ],
     "rewrites": [
       {
